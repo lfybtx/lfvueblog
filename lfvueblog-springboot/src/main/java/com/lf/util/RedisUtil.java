@@ -1,5 +1,6 @@
 package com.lf.util;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -14,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class RedisUtil {
         //注入自己写的redisTemplate
-        @Resource
+        @Autowired
         private RedisTemplate<String,Object> redisTemplate;
         // =============================common============================
 
