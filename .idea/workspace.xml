@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/pom.xml" afterDir="false" />
+    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="更新项目结构">
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/ctroller/BlogCtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/ctroller/UserCtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/dao/BlogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,6 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2LPQ2UXY5VbsbRIgrVB6FTtziPB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -43,13 +54,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,7 +84,16 @@
       <option name="presentableId" value="Default" />
       <updated>1675770030589</updated>
       <workItem from="1675770031707" duration="2088000" />
+      <workItem from="1675828360572" duration="1066000" />
     </task>
+    <task id="LOCAL-00001" summary="更新项目结构">
+      <created>1675829392658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675829392658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +109,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新项目结构" />
   </component>
 </project>
