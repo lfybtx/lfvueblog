@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="更新结果包装类" />
+    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="更新结果包装类">
+      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/test/java/com/lf/LfvueblogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/test/java/com/lf/LfvueblogApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
       <recent name="com.lf.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LfvueblogApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -69,6 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LfvueblogApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lfvueblog-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lf" />
+      <option name="MAIN_CLASS_NAME" value="com.lf.LfvueblogApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LfvueblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lfvueblog-springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lf.LfVueBlogApplication" />
@@ -76,6 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LfvueblogApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675770030589</updated>
       <workItem from="1675770031707" duration="2088000" />
-      <workItem from="1675828360572" duration="5286000" />
+      <workItem from="1675828360572" duration="9736000" />
     </task>
     <task id="LOCAL-00001" summary="更新项目结构">
       <created>1675829392658</created>
