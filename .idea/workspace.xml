@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="更新结果包装类">
-      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/java/com/lf/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfvueblog-springboot/src/test/java/com/lf/LfvueblogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lfvueblog-springboot/src/test/java/com/lf/LfvueblogApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="e66fde45-8c08-4f6c-aa2d-13d20ee7b6fa" name="默认变更列表" comment="完善UserDetails" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675770030589</updated>
       <workItem from="1675770031707" duration="2088000" />
-      <workItem from="1675828360572" duration="9736000" />
+      <workItem from="1675828360572" duration="10049000" />
     </task>
     <task id="LOCAL-00001" summary="更新项目结构">
       <created>1675829392658</created>
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675838742419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完善UserDetails">
+      <created>1675844014696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675844014696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新项目结构" />
     <MESSAGE value="更新结果包装类" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新结果包装类" />
+    <MESSAGE value="完善UserDetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善UserDetails" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
