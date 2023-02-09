@@ -11,10 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,14 +42,22 @@ public class LoginCtroller {
                         throw new RuntimeException("登录失败");
                 }
 //                认证成功 使用userid生成jwt
-                LoginUser principal = (LoginUser) authenticate.getPrincipal();
-                Long id = principal.getUser().getId();
+                LoginUser loginUser = (LoginUser) authenticate.getPrincipal();
+                Long id = loginUser.getUser().getId();
                 String jwt = JwtUtil.createJWT(id.toString());
                 Map<String ,String> map=new HashMap<>();
                 map.put("token",jwt);
 //                用户信息存入redis
-                redisUtil.set("login:"+id.toString(),user);
+                redisUtil.set("login:"+id.toString(),loginUser);
 //                jwt返回
                 return R.success(200,"登录成功",map);
+        }
+        @GetMapping("/logout")
+        public R logout(){
+                UsernamePasswordAuthenticationToken authentication = (UsernamePasswordAuthenticationToken) SecurityContextHolder.getContext().getAuthentication();
+                LoginUser loginUser = (LoginUser) authentication.getPrincipal();
+                Long userid = loginUser.getUser().getId();
+                redisUtil.del("login:"+userid);
+                return R.success(200,"退出成功",null);
         }
 }

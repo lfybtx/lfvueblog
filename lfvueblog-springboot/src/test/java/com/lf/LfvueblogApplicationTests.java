@@ -29,4 +29,8 @@ class LfvueblogApplicationTests {
                 log.info(name.toString());
                 log.info("----------------------------------------------------------");
         }
+        @Test
+        void testRedis2(){
+                redisUtil.set("age",18);
+        }
 }
