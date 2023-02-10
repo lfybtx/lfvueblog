@@ -81,7 +81,7 @@
                         <artifactId>jjwt</artifactId>
                         <version>0.9.1</version>
                 </dependency>
-                
+
                 <!-- 配置使用redis启动器 -->
                 <dependency>
                         <groupId>org.springframework.boot</groupId>
