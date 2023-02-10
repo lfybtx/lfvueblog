@@ -1,5 +1,6 @@
 package com.lf;
 
+import com.lf.domain.LoginUser;
 import com.lf.util.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -32,5 +33,12 @@ class LfvueblogApplicationTests {
         @Test
         void testRedis2(){
                 redisUtil.set("age",18);
+        }
+        @Test
+        void  test03(){
+                Long id1=new Long(1);
+                Long id2=new Long(1);
+                System.out.println(id1==id2);
+                System.out.println(id1.equals(id2));
         }
 }

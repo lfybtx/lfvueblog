@@ -1,8 +1,6 @@
 package com.lf.filter;
 
-import cn.hutool.extra.mail.UserPassAuthenticator;
 import com.lf.domain.LoginUser;
-import com.lf.domain.User;
 import com.lf.util.JwtUtil;
 import com.lf.util.RedisUtil;
 import io.jsonwebtoken.Claims;

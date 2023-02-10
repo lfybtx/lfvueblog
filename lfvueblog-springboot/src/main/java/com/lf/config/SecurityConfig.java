@@ -31,9 +31,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                         .and()
                         .authorizeRequests()
-                        .antMatchers("/login","/hello").anonymous()
+                        .antMatchers("/login","/hello",
+                                "/user/**",
+                                "/blog/blogs" , "/blog/{id}").anonymous()
                         .anyRequest().authenticated()
-                        .and().logout().logoutUrl("logout");
+                        .and().
+                        logout().logoutUrl("/logout");
                 http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
         }
 
